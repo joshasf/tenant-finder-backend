@@ -1,0 +1,22 @@
+{
+  "name": "tenant-finder-backend",
+  "version": "1.0.0",
+  "description": "Backend API for TenantFinder Pro",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "@googlemaps/google-maps-services-js": "^3.3.42"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
